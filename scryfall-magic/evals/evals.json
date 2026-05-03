@@ -1,0 +1,23 @@
+{
+  "skill_name": "scryfall-magic",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "I'm building a Golgari commander deck with Meren of Clan Nel Toth. What are the best creatures under $5 that synergize with her graveyard theme?",
+      "expected_output": "A categorized list of creatures with names, mana costs, oracle text, prices, and EDHREC rank, found using minimal API calls",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Is Swords to Plowshares or Path to Exile better for my modern deck? Compare them for me.",
+      "expected_output": "Side-by-side comparison of both cards with stats, text, prices, and format legality, fetched in a single batched get_card_data call",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What's the cheapest version of Dockside Extortionist I can get?",
+      "expected_output": "A list of all printings with prices, identifying the cheapest one, using get_card_prints",
+      "files": []
+    }
+  ]
+}
