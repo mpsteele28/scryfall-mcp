@@ -1,5 +1,10 @@
 # MTG MCP
 
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![MCP](https://img.shields.io/badge/MCP-compatible-green)
+![Scryfall](https://img.shields.io/badge/data-Scryfall-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 A Model Context Protocol (MCP) server that gives Claude access to Magic: The Gathering card data via the [Scryfall API](https://scryfall.com/docs/api). No API key required.
 
 ## Tools
